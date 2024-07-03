@@ -1,0 +1,64 @@
+{
+    "events": [
+      {
+        "date": "2024-07-05",
+        "events": [
+          {
+            "eventName": "Earth’s Aphelion",
+            "description": "At 05:06 UTC, the Earth will reach aphelion—the point in its orbit farthest from the Sun.",
+            "icon": "earth"
+          },
+          {
+            "eventName": "New Moon",
+            "description": "July’s New Moon comes at 22:57 UTC on July 5. The period around New Moon can be a good time to look at the night sky—without a bright Moon around to lighten the sky.",
+            "icon": "moon"
+          }
+
+        ]
+      },
+      {
+        "date": "2024-07-21",
+        "events": [
+          {
+            "eventName": "Full Moon",
+            "description": "July’s Full Moon is known as the Buck Moon, signifying the new antlers that emerge on deer buck’s foreheads around this time. This year, it falls at 10:17 UTC on July 21.",
+            "icon": "moon"
+          }
+        ]
+      },
+      {
+        "date": "2024-07-22",
+        "events": [
+          {
+            "eventName": "Mercury at Greatest Elongation East",
+            "description": "This might be a good time to try and spot Mercury: the planet appears at its farthest distance from the Sun in the evening sky.",
+            "icon": "planet"
+          }
+        ]
+      },
+      
+      {
+        "date": "2024-08-04",
+        "events": [
+          {
+            "eventName": "New Moon",
+            "description": "New Moon is at 11:13 UTC on August 4, marking the start of another lunar month. New Moon is a good time to explore the night sky. ",
+            "icon": "moon"
+          }
+        
+        ]
+      },
+
+      {
+        "date": "2024-08-12",
+        "events": [
+          {
+            "eventName": "Perseid Meteors",
+            "description": "The Perseid meteor shower is usually one of the most active and brightest meteor showers of the year. In 2024, evening viewing will be affected by a bright First Quarter Moon.",
+            "icon": "meteor"
+          }
+        
+        ]
+      }
+    ]
+  }
