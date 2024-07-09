@@ -1,58 +1,55 @@
 {
-    "events": [
-      {
-        "date": "2024-07-05",
-        "events": [
-          
-          {
-            "eventName": "New Moon",
-            "description": "The New Moon of July will occur at 22:57 UTC on July 5th. This is an excellent opportunity to observe the night sky, as the absence of a bright Moon allows for clearer viewing conditions.",
-            "icon": "moon"
-          }
+  "events": [
+    {
+      "date": "2024-07-05",
+      "events": [
+        {
+          "eventName": "New Moon",
+          "description": "The New Moon of July will occur at 22:57 UTC on July 5th. This is an excellent opportunity to observe the night sky, as the absence of a bright Moon allows for clearer viewing conditions.",
+          "icon": "moon"
+        }
+      ]
+    },
+    {
+      "date": "2024-07-21",
+      "events": [
+        {
+          "eventName": "Full Moon",
+          "description": "The Full Moon will occurr at 10:18 UTC. This full moon is also referred to as the Buck Moon.",
+          "icon": "moon"
+        }
+      ]
+    },
+    {
+      "date": "2024-07-22",
+      "events": [
+        {
+          "eventName": "Mercury at Greatest Eastern Elongation",
+          "description": "Mercury, the planet closest to the Sun, reaches its greatest eastern elongation of 26.9 degrees from our star. This is the best opportunity to observe Mercury, as it will be positioned at its highest point above the horizon during the evening sky. Look towards low western sky just after sunset to catch a glimpse of the planet.",
+          "icon": "planet"
+        }
+      ]
+    },
+    {
+      "date": "2024-07-28",
+      "events": [
+        {
+          "eventName": "Delta Aquarids Meteor Shower",
+          "description": "The Delta Aquarids meteor shower can yield up to 20 meteors per hour at its peak. The shower occurs annually from July 12 to August 23, with its peak anticipated this year on the night of July 28th into the early hours of July 29th.",
+          "icon": "other"
+        }
+      ]
+    },
 
-        ]
-      },
-      {
-        "date": "2024-07-21",
-        "events": [
-          {
-            "eventName": "Full Moon",
-            "description": "The Full Moon will occurr at 10:18 UTC. This full moon is also referred to as the Buck Moon.",
-            "icon": "moon"
-          }
-        ]
-      },
-      {
-        "date": "2024-07-22",
-        "events": [
-          {
-            "eventName": "Mercury at Greatest Eastern Elongation",
-            "description": "Mercury, the planet closest to the Sun, reaches its greatest eastern elongation of 26.9 degrees from our star. This is the best opportunity to observe Mercury, as it will be positioned at its highest point above the horizon during the evening sky. Look towards low western sky just after sunset to catch a glimpse of the planet.",
-            "icon": "planet"
-          }
-        ]
-      },
-      {
-        "date": "2024-07-28",
-        "events": [
-          {
-            "eventName": "Delta Aquarids Meteor Shower",
-            "description": "The Delta Aquarids meteor shower can yield up to 20 meteors per hour at its peak. The shower occurs annually from July 12 to August 23, with its peak anticipated this year on the night of July 28th into the early hours of July 29th.",
-            "icon": "other"
-          }
-        ]
-      },
-      
-      {
-        "date": "2024-08-04",
-        "events": [
-          {
-            "eventName": "New Moon",
-            "description": "The New Moon occurrs at 11:13 UTC on August 4. New Moon is a good time to explore the night sky. ",
-            "icon": "moon"
-          }
-        
-        ]
-      }
-    ]
-  }
+    {
+      "date": "2024-08-04",
+      "events": [
+        {
+          "eventName": "New Moon",
+          "description": "The New Moon occurrs at 11:13 UTC on August 4. New Moon is a good time to explore the night sky. ",
+          "icon": "moon"
+        }
+      ]
+    }
+  ]
+}
