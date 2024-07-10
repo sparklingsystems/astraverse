@@ -39,17 +39,8 @@
           "icon": "other"
         }
       ]
-    },
-
-    {
-      "date": "2024-08-04",
-      "events": [
-        {
-          "eventName": "New Moon",
-          "description": "The New Moon occurrs at 11:13 UTC on August 4. New Moon is a good time to explore the night sky. ",
-          "icon": "moon"
-        }
-      ]
     }
+
+    
   ]
 }
