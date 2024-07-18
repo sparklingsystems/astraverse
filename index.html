@@ -27,7 +27,9 @@
   <body>
     <div class="bg-black pb-6 sm:pb-8 lg:pb-12">
       <div class="mx-auto max-w-screen-2xl px-4 md:px-8">
-        <header class="flex items-center justify-between py-4 md:py-8">
+        <header
+          class="flex lg:flex-row items-center justify-between py-4 md:py-8"
+        >
           <!-- logo - start -->
           <a
             href="/"
@@ -39,6 +41,12 @@
             Astraverse
           </a>
           <!-- logo - end -->
+
+          <menu class="flex flex-row invisible lg:visible">
+            <a href="/index.html" class="text-gray-300">Home</a>
+            <a href="/faq.html" class="text-gray-300 ml-5">FAQs</a>
+            <a href="/contact.html" class="text-gray-300 ml-5">Contact</a>
+          </menu>
         </header>
 
         <section
@@ -70,15 +78,9 @@
                 class="rounded-full bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 p-[1px] focus:ring"
                 href="#"
               >
-
-
                 <span class="block text-white rounded-full bg-black px-5 py-2">
-                  Coming Soon to Play Store 
-                       
+                  Coming Soon to Play Store
                 </span>
-
-
-                
               </a>
             </div>
           </div>
@@ -98,10 +100,7 @@
         class="px-5 py-5 flex flex-col-reverse xl:flex-row justify-center items-center"
       >
         <div class="py-10 h-[700px] flex justify-center grow">
-          <img
-            class="h-full w-auto object-contain"
-            src="Mockup2.png"
-          />
+          <img class="h-full w-auto object-contain" src="Mockup2.png" />
         </div>
 
         <div
@@ -202,12 +201,11 @@
       <footer class="mx-auto max-w-screen-2xl px-4">
         <div class="flex flex-col items-center border-t pt-6">
           <!-- nav - start -->
-          <nav
-            class="mb-4 flex flex-wrap justify-center gap-x-4 gap-y-2 md:justify-start md:gap-6"
-          >
-            <a href="/faq.html" class="text-gray-300">FAQs</a>
+          <nav class="mb-4 flex flex-wrap justify-center gap-x-2 text-white">
+            <a href="/faq.html" class="text-gray-300">FAQs</a> •
             <a href="/terms.html" class="text-gray-300">Terms and Conditions</a>
-            <a href="/privacy.html" class="text-gray-300">Privacy Policy</a>
+            • <a href="/privacy.html" class="text-gray-300">Privacy Policy</a> •
+            <a href="/contact.html" class="text-gray-300">Contact</a>
           </nav>
           <!-- nav - end -->
         </div>
