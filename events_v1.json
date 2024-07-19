@@ -39,8 +39,36 @@
           "icon": "meteor"
         }
       ]
+    },
+    {
+      "date": "2024-08-04",
+      "events": [
+        {
+          "eventName": "New Moon",
+          "description": "The New Moon phase occurs at 11:15 UTC on August 4. This is the best time of the month to observe faint objects such as galaxies and star clusters because there is no moonlight to interfere.",
+          "icon": "moon"
+        }
+      ]
+    },
+    {
+      "date": "2024-08-12",
+      "events": [
+        {
+          "eventName": "Perseids Meteor Shower",
+          "description": "The Perseids is one of the best meteor showers to observe, producing up to 60 meteors per hour at its peak. It is produced by comet Swift-Tuttle, which was discovered in 1862. The Perseids are famous for producing a large number of bright meteors. The shower runs annually from July 17 to August 24. It peaks this year on the night of August 11 and the morning of August 12. The first quarter moon will block out some of the fainter meteors in the early evening. But the Moon will set shortly after midnight leaving dark skies for what could be an excellent early morning show. Best viewing will be from a dark location after midnight. Meteors will radiate from the constellation Perseus, but can appear anywhere in the sky.",
+          "icon": "meteor"
+        }
+      ]
+    },
+    {
+      "date": "2024-08-19",
+      "events": [
+        {
+          "eventName": "Full Moon (Blue Moon)",
+          "description": "The Moon will be located on the opposite side of the Earth as the Sun and its face will be will be fully illuminated. This phase occurs at 18:27 UTC.\nThis full moon was known by early Native American tribes as the Sturgeon Moon because the large sturgeon fish of the Great Lakes and other major lakes were more easily caught at this time of year.\nThis moon has also been known as the Green Corn Moon and the Grain Moon.\nSince this is the third of four full moons in this season, it is known as a blue moon. This rare calendar event only happens once every few years, giving rise to the term, “once in a blue moon.” There are normally only three full moons in each season of the year. But since full moons occur every 29.53 days, occasionally a season will contain 4 full moons. The extra full moon of the season is known as a blue moon.\nBlue moons occur on average once every 2.7 years.",
+          "icon": "moon"
+        }
+      ]
     }
-
-    
   ]
 }
