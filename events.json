@@ -1,0 +1,14 @@
+{
+  "events": [
+    {
+      "date": "2024-08-19",
+      "events": [
+        {
+          "eventName": "Full Moon (Blue Moon)",
+          "description": "The Moon will be located on the opposite side of the Earth as the Sun and its face will be will be fully illuminated. This phase occurs at 18:27 UTC.\nThis full moon was known by early Native American tribes as the Sturgeon Moon because the large sturgeon fish of the Great Lakes and other major lakes were more easily caught at this time of year.\nThis moon has also been known as the Green Corn Moon and the Grain Moon.\nSince this is the third of four full moons in this season, it is known as a blue moon. This rare calendar event only happens once every few years, giving rise to the term, “once in a blue moon.” There are normally only three full moons in each season of the year. But since full moons occur every 29.53 days, occasionally a season will contain 4 full moons. The extra full moon of the season is known as a blue moon.\nBlue moons occur on average once every 2.7 years.",
+          "icon": "moon"
+        }
+      ]
+    }
+  ]
+}
