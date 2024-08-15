@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Perihelion</title>
+    <title>Astraverse</title>
     <script src="https://cdn.tailwindcss.com"></script>
 
     <link rel="icon" href="icon.png" />
@@ -13,6 +13,16 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
       rel="stylesheet"
     />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Michroma&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
     <meta
       name="google-site-verification"
       content="Qq5ZJjBcxFpOu4uzKNjKCTD-nS-Ro2x1aPDnxzaqGUQ"
@@ -20,25 +30,25 @@
 
     <style>
       * {
-        font-family: "Open Sans";
+        font-family: "Montserrat";
       }
+
+      
     </style>
   </head>
-  <body>
-    <div class="bg-black pb-6 sm:pb-8 lg:pb-12">
-      <div class="mx-auto max-w-screen-2xl px-4 md:px-8">
-        <header
-          class="flex lg:flex-row items-center justify-between py-4 md:py-8"
-        >
+  <body class="bg-black">
+    <div class="bg-black">
+      <div class="mx-auto max-w-screen-sm pt-10 ">
+        <header class="flex flex-col shadow-[0_0_10px_1px_rgba(100,100,100)_inset] lg:border border-gray-500 border-gray-500 rounded-full pl-5 pr-10 lg:flex-row items-center justify-between">
           <!-- logo - start -->
           <a
             href="/"
             class="inline-flex items-center gap-2.5 text-2xl font-bold text-white md:text-3xl"
             aria-label="logo"
           >
-            <img src="icon.png" class="w-20 h-20" />
+            <img src="logo_alpha.png" class="w-20 h-20" />
 
-            Perihelion
+            Astraverse
           </a>
           <!-- logo - end -->
 
@@ -48,151 +58,155 @@
             <a href="/contact.html" class="text-gray-300 ml-5">Contact</a>
           </menu>
         </header>
-
-        <section
-          class="flex flex-col justify-center items-center gap-6 sm:gap-10 md:gap-16 lg:flex-row"
-        >
-          <!-- content - start -->
-          <div class="flex grow flex-col justify-center">
-            <p class="mb-4 text-purple-500 font-bold xl:text-start text-center">
-              Introducing The Astronomy Community
-            </p>
-
-            <h1
-              class="mb-5 text-5xl font-extrabold text-white xl:text-start text-center"
-            >
-              Perihelion
-            </h1>
-
-            <p
-              class="mb-8 w-full xl:w-[600px] leading-relaxed text-gray-300 xl:text-start text-center"
-            >
-              Explore, share, and connect with fellow astronomy enthusiasts
-              through astro-images. Share the beauty of the cosmos, engage in
-              discussions, stay updated on celestial events, and many more, all
-              in one app.
-            </p>
-
-            <div class="flex flex-row m-auto xl:m-0 mb-10 gap-2.5">
-              <a
-                class="rounded-full bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 p-[1px] focus:ring"
-                href="#"
-              >
-                <span class="block text-white rounded-full bg-black px-5 py-2">
-                  Coming Soon to Play Store
-                </span>
-              </a>
-            </div>
-          </div>
-          <!-- content - end -->
-
-          <!-- image - start -->
-          <div class="h-[700px] grow">
-            <img src="Mockup1.png" class="h-full w-auto object-contain" />
-          </div>
-          <!-- image - end -->
-        </section>
       </div>
     </div>
 
-    <section class="bg-black text-white">
-      <div
-        class="px-5 py-5 flex flex-col-reverse xl:flex-row justify-center items-center"
-      >
-        <div class="py-10 h-[700px] flex justify-center grow">
-          <img class="h-full w-auto object-contain" src="Mockup2.png" />
-        </div>
-
+    <section
+      class="flex flex-col justify-center items-center gap-6 sm:gap-10 md:gap-16 lg:flex-row"
+    >
+      <section class="text-gray-600 body-font">
         <div
-          class="flex flex-col flex-wrap lg:py-6 -mb-10 lg:w-1/2 lg:pl-12 lg:text-left text-center"
+          class="container mx-auto flex px-5 items-center justify-center flex-col"
         >
-          <div class="flex flex-col mb-10 lg:items-start items-center">
-            <div
-              class="w-12 h-12 inline-flex items-center justify-center rounded-full bg-white text-black mb-5"
+          <div class="text-center w-full mt-10">
+            <h1
+              class="font-extrabold text-5xl mb-5 bg-gradient-to-r from-[#bdc3c7] to-[#2c3e50] text-transparent bg-clip-text"
             >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="20"
-                height="20"
-                fill="currentColor"
-                class="bi bi-camera2"
-                viewBox="0 0 16 16"
-              >
-                <path d="M5 8c0-1.657 2.343-3 4-3V4a4 4 0 0 0-4 4" />
-                <path
-                  d="M12.318 3h2.015C15.253 3 16 3.746 16 4.667v6.666c0 .92-.746 1.667-1.667 1.667h-2.015A5.97 5.97 0 0 1 9 14a5.97 5.97 0 0 1-3.318-1H1.667C.747 13 0 12.254 0 11.333V4.667C0 3.747.746 3 1.667 3H2a1 1 0 0 1 1-1h1a1 1 0 0 1 1 1h.682A5.97 5.97 0 0 1 9 2c1.227 0 2.367.368 3.318 1M2 4.5a.5.5 0 1 0-1 0 .5.5 0 0 0 1 0M14 8A5 5 0 1 0 4 8a5 5 0 0 0 10 0"
-                />
-              </svg>
-            </div>
-            <div class="flex-grow">
-              <h2 class="text-white font-bold text-xl mb-3">
-                Capture the Universe
-              </h2>
-              <p class="text-gray-400">
-                Share your astrophotography and connect with a whole
-                astro-community and enthusiasts.
-              </p>
-            </div>
+              Meet The Universe like never before.
+            </h1>
+            <p class="mb-8 lg:w-2/3 m-auto text-xl text-gray-500">
+              Your gateway to the cosmos. Discover astrophotos, connect with
+              other enthusiasts, get event, news and weather updates, and learn
+              with AI. All in one place.
+            </p>
           </div>
-          <div class="flex flex-col mb-10 lg:items-start items-center">
-            <div
-              class="w-12 h-12 inline-flex items-center justify-center rounded-full bg-white text-black mb-5"
+        </div>
+      </section>
+
+      
+
+
+    </section>
+
+    <div class="flex flex-col items-center justify-center">
+
+      <img
+      class="w-[200px] object-contain"
+      src="GooglePlay.webp"
+    />
+
+    <a class="text-sm text-gray-500 mt-2 mb-5 hover:text-orange-300" href="https://forms.gle/rV3KoLdKb9CB1VDx9" target="_blank">
+      Click here to get early access now!
+    </a>
+
+
+    </div>
+
+    <div class="bg-black flex flex-row items-center justify-center">
+      <img
+        class="h-[700px] w-auto object-contain hover:scale-105 duration-1000"
+        alt="hero"
+        src="Mockup1.png"
+      />
+    </div>
+
+
+    
+    <section>
+      <div class="container px-10 py-10 mx-auto">
+        <div
+          class="grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-12 lg:grid-cols-3"
+        >
+          <div class="p-8 space-y-3 border-2 border-gray-500 rounded-xl duration-1000 hover:scale-105">
+            <span class="inline-block text-gray-500">
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" fill="currentColor" class="bi bi-moon-stars-fill" viewBox="0 0 24 24">
+                <path d="M6 .278a.77.77 0 0 1 .08.858 7.2 7.2 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277q.792-.001 1.533-.16a.79.79 0 0 1 .81.316.73.73 0 0 1-.031.893A8.35 8.35 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.75.75 0 0 1 6 .278"/>
+                <path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.73 1.73 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.73 1.73 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.73 1.73 0 0 0 1.097-1.097zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.16 1.16 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.16 1.16 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732z"/>
+              </svg>
+            </span>
+
+            <h1
+              class="text-xl font-semibold text-gray-700 capitalize dark:text-white"
             >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="20"
-                height="20"
-                fill="currentColor"
-                class="bi bi-chat-dots-fill"
-                viewBox="0 0 16 16"
-              >
-                <path
-                  d="M16 8c0 3.866-3.582 7-8 7a9 9 0 0 1-2.347-.306c-.584.296-1.925.864-4.181 1.234-.2.032-.352-.176-.273-.362.354-.836.674-1.95.77-2.966C.744 11.37 0 9.76 0 8c0-3.866 3.582-7 8-7s8 3.134 8 7M5 8a1 1 0 1 0-2 0 1 1 0 0 0 2 0m4 0a1 1 0 1 0-2 0 1 1 0 0 0 2 0m3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2"
-                />
-              </svg>
-            </div>
-            <div class="flex-grow">
-              <h2 class="text-white font-bold text-xl mb-3">
-                Connect and Discuss
-              </h2>
-              <p class="text-gray-400">
-                Engage in conversations with fellow astronomers and
-                photographers. Join forums, ask questions and engage in
-                discussions.
-              </p>
-            </div>
+              Discover the Cosmos
+            </h1>
+
+            <p class="text-gray-300">
+              Discover space images including professional astrophotos, share yours, connect with a whole
+              community, ask questions, engage in discussions with other space lovers and professionals.
+            </p>
           </div>
-          <div class="flex flex-col mb-10 lg:items-start items-center">
-            <div
-              class="w-12 h-12 inline-flex items-center justify-center rounded-full bg-white text-black mb-5"
+
+          <div class="p-8 space-y-3 border-2 border-gray-500 rounded-xl duration-1000 hover:scale-105">
+            <span class="inline-block text-gray-500">
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" fill="currentColor" class="bi bi-newspaper" viewBox="0 0 24 24">
+                <path d="M0 2.5A1.5 1.5 0 0 1 1.5 1h11A1.5 1.5 0 0 1 14 2.5v10.528c0 .3-.05.654-.238.972h.738a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 1 1 0v9a1.5 1.5 0 0 1-1.5 1.5H1.497A1.497 1.497 0 0 1 0 13.5zM12 14c.37 0 .654-.211.853-.441.092-.106.147-.279.147-.531V2.5a.5.5 0 0 0-.5-.5h-11a.5.5 0 0 0-.5.5v11c0 .278.223.5.497.5z"/>
+                <path d="M2 3h10v2H2zm0 3h4v3H2zm0 4h4v1H2zm0 2h4v1H2zm5-6h2v1H7zm3 0h2v1h-2zM7 8h2v1H7zm3 0h2v1h-2zm-3 2h2v1H7zm3 0h2v1h-2zm-3 2h2v1H7zm3 0h2v1h-2z"/>
+              </svg>
+            </span>
+
+            <h1
+              class="text-xl font-semibold text-gray-700 capitalize dark:text-white"
             >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="20"
-                height="20"
-                fill="currentColor"
-                class="bi bi-moon-stars-fill"
-                viewBox="0 0 16 16"
-              >
-                <path
-                  d="M6 .278a.77.77 0 0 1 .08.858 7.2 7.2 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277q.792-.001 1.533-.16a.79.79 0 0 1 .81.316.73.73 0 0 1-.031.893A8.35 8.35 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.75.75 0 0 1 6 .278"
-                />
-                <path
-                  d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.73 1.73 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.73 1.73 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.73 1.73 0 0 0 1.097-1.097zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.16 1.16 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.16 1.16 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732z"
-                />
-              </svg>
-            </div>
-            <div class="flex-grow">
-              <h2 class="text-white font-bold text-xl mb-3">
-                Catch Up on Astronomy Events
-              </h2>
-              <p class="text-gray-400">
-                Keep track of upcoming celestial events, from meteor showers to
-                eclipses, so you never miss an opportunity to capture
-                breathtaking astronomical phenomena.
-              </p>
-            </div>
+              Space Events, News and Weather Updates
+            </h1>
+
+            <p class="text-gray-300">
+              Stay in sync with astronomy events and news, and never miss another splendid view. Get weather updates to plan
+              your astrophotography or stargazing sessions.
+            </p>
           </div>
+
+          <div class="p-8 space-y-3 border-2 border-gray-500 rounded-xl duration-1000 hover:scale-105">
+            <span class="inline-block text-gray-500">
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8"  fill="currentColor" class="bi bi-stars" viewBox="0 0 24 24">
+                <path d="M7.657 6.247c.11-.33.576-.33.686 0l.645 1.937a2.89 2.89 0 0 0 1.829 1.828l1.936.645c.33.11.33.576 0 .686l-1.937.645a2.89 2.89 0 0 0-1.828 1.829l-.645 1.936a.361.361 0 0 1-.686 0l-.645-1.937a2.89 2.89 0 0 0-1.828-1.828l-1.937-.645a.361.361 0 0 1 0-.686l1.937-.645a2.89 2.89 0 0 0 1.828-1.828zM3.794 1.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387A1.73 1.73 0 0 0 4.593 5.69l-.387 1.162a.217.217 0 0 1-.412 0L3.407 5.69A1.73 1.73 0 0 0 2.31 4.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387A1.73 1.73 0 0 0 3.407 2.31zM10.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.16 1.16 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.16 1.16 0 0 0-.732-.732L9.1 2.137a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732z"/>
+              </svg>
+            </span>
+
+            <h1
+              class="text-xl font-semibold text-gray-700 capitalize dark:text-white"
+            >
+              Learn and Grow
+            </h1>
+
+            <p class="text-gray-300">
+              Learn about space and astronomy all while exploring images, forums, and other stuff, enhanced by your AI companion.
+              Or view our curated short courses and content.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-black text-gray-300 body-font">
+      <div class="container px-5 py-24 mx-auto">
+        <div class="xl:w-1/2 lg:w-3/4 w-full mx-auto text-center">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="currentColor"
+            class="inline-block w-8 h-8 text-gray-400 mb-8"
+            viewBox="0 0 975.036 975.036"
+          >
+            <path
+              d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"
+            ></path>
+          </svg>
+          <p class="leading-relaxed text-lg">
+            Astraverse is superb as a dedicated platform for sharing my work &
+            discussing with astrophotography enthusiasts, and drawing sources of
+            inspiration. The interface is minimalistic and easy to use, keeping
+            focus on the imagery
+          </p>
+          <span
+            class="inline-block h-1 w-10 rounded bg-[#2c3e50] mt-4 mb-2"
+          ></span>
+          <p class="text-gray-400">An Astrophotographer</p>
+          <h2
+            class="text-gray-500 font-medium title-font tracking-wider text-sm"
+          >
+            Software Engineer at Google
+          </h2>
         </div>
       </div>
     </section>
@@ -211,7 +225,7 @@
         </div>
 
         <div class="pb-10 text-center text-sm text-white">
-          © 2024 Perihelion
+          © 2024 Astraverse
         </div>
       </footer>
     </div>
